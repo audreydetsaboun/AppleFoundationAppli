@@ -13,6 +13,13 @@
 		CCAD02E823E1B7AD00B243BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCAD02E723E1B7AD00B243BC /* Assets.xcassets */; };
 		CCAD02EB23E1B7AD00B243BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCAD02EA23E1B7AD00B243BC /* Preview Assets.xcassets */; };
 		CCAD02EE23E1B7AD00B243BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAD02EC23E1B7AD00B243BC /* LaunchScreen.storyboard */; };
+		CCAD02F823E1BBAD00B243BC /* ClientsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD02F723E1BBAD00B243BC /* ClientsDetailView.swift */; };
+		CCAD02FE23E1BC1400B243BC /* StatsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD02FD23E1BC1400B243BC /* StatsDetailView.swift */; };
+		CCAD030023E1BC5F00B243BC /* PlanningDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD02FF23E1BC5F00B243BC /* PlanningDetailView.swift */; };
+		CCAD030223E1BD8A00B243BC /* ActivityCreationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD030123E1BD8A00B243BC /* ActivityCreationDetailView.swift */; };
+		CCAD030423E1DBF300B243BC /* ActivityCreation2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD030323E1DBF200B243BC /* ActivityCreation2.swift */; };
+		CCAD030E23E2E5B400B243BC /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD030D23E2E5B400B243BC /* Client.swift */; };
+		CCAD031023E2E95100B243BC /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD030F23E2E95100B243BC /* Activity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		CCAD02EA23E1B7AD00B243BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CCAD02ED23E1B7AD00B243BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCAD02EF23E1B7AD00B243BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCAD02F723E1BBAD00B243BC /* ClientsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsDetailView.swift; sourceTree = "<group>"; };
+		CCAD02FD23E1BC1400B243BC /* StatsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsDetailView.swift; sourceTree = "<group>"; };
+		CCAD02FF23E1BC5F00B243BC /* PlanningDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningDetailView.swift; sourceTree = "<group>"; };
+		CCAD030123E1BD8A00B243BC /* ActivityCreationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCreationDetailView.swift; sourceTree = "<group>"; };
+		CCAD030323E1DBF200B243BC /* ActivityCreation2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCreation2.swift; sourceTree = "<group>"; };
+		CCAD030D23E2E5B400B243BC /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		CCAD030F23E2E95100B243BC /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +70,19 @@
 		CCAD02E023E1B7AA00B243BC /* AppleFoundationAppli */ = {
 			isa = PBXGroup;
 			children = (
+				CCAD030C23E2E58600B243BC /* Models */,
 				CCAD02E123E1B7AA00B243BC /* AppDelegate.swift */,
 				CCAD02E323E1B7AA00B243BC /* SceneDelegate.swift */,
 				CCAD02E523E1B7AA00B243BC /* ContentView.swift */,
+				CCAD02FD23E1BC1400B243BC /* StatsDetailView.swift */,
+				CCAD02F723E1BBAD00B243BC /* ClientsDetailView.swift */,
 				CCAD02E723E1B7AD00B243BC /* Assets.xcassets */,
 				CCAD02EC23E1B7AD00B243BC /* LaunchScreen.storyboard */,
 				CCAD02EF23E1B7AD00B243BC /* Info.plist */,
 				CCAD02E923E1B7AD00B243BC /* Preview Content */,
+				CCAD02FF23E1BC5F00B243BC /* PlanningDetailView.swift */,
+				CCAD030123E1BD8A00B243BC /* ActivityCreationDetailView.swift */,
+				CCAD030323E1DBF200B243BC /* ActivityCreation2.swift */,
 			);
 			path = AppleFoundationAppli;
 			sourceTree = "<group>";
@@ -73,6 +93,15 @@
 				CCAD02EA23E1B7AD00B243BC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CCAD030C23E2E58600B243BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD030D23E2E5B400B243BC /* Client.swift */,
+				CCAD030F23E2E95100B243BC /* Activity.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +175,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCAD031023E2E95100B243BC /* Activity.swift in Sources */,
+				CCAD02FE23E1BC1400B243BC /* StatsDetailView.swift in Sources */,
+				CCAD02F823E1BBAD00B243BC /* ClientsDetailView.swift in Sources */,
+				CCAD030023E1BC5F00B243BC /* PlanningDetailView.swift in Sources */,
+				CCAD030223E1BD8A00B243BC /* ActivityCreationDetailView.swift in Sources */,
 				CCAD02E223E1B7AA00B243BC /* AppDelegate.swift in Sources */,
 				CCAD02E423E1B7AA00B243BC /* SceneDelegate.swift in Sources */,
+				CCAD030423E1DBF300B243BC /* ActivityCreation2.swift in Sources */,
 				CCAD02E623E1B7AA00B243BC /* ContentView.swift in Sources */,
+				CCAD030E23E2E5B400B243BC /* Client.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
