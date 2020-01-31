@@ -7,7 +7,8 @@
 //
 import Foundation
 
-struct Client {
+struct Client: Identifiable {
+    var id = UUID()
     var firstName: String
     var lastName: String
     var firm: String?
@@ -15,6 +16,7 @@ struct Client {
     var mail: String
     var direction: String
     var linkedin: String?
+    var clientPhoto: String?
     
     static let `default` = Self(firstname: "Roger", lastname: "Dupond", firm: "Apple", phoneNumber: "0664738493", mail: "roger.dupond@apple.com", direction: "3 rue du Chapelier 93400 Montreuil", linkedin: "http://www.linkedin.com/profile/rogerdupond")
     

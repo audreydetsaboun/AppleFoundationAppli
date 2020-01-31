@@ -10,7 +10,14 @@ import SwiftUI
 
 struct StatsDetailView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            }
+            .navigationBarTitle(Text("Statistiques"), displayMode: .inline)
+            .navigationBarTitle(Text("Récapitulatif Août"))
+
+        }
     }
 }
 

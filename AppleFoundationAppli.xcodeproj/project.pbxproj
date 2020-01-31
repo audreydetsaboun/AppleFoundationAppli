@@ -20,6 +20,8 @@
 		CCAD030423E1DBF300B243BC /* ActivityCreation2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD030323E1DBF200B243BC /* ActivityCreation2.swift */; };
 		CCAD030E23E2E5B400B243BC /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD030D23E2E5B400B243BC /* Client.swift */; };
 		CCAD031023E2E95100B243BC /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD030F23E2E95100B243BC /* Activity.swift */; };
+		CCD9100F23E315080025B11E /* ActivityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD9100E23E315080025B11E /* ActivityDetailView.swift */; };
+		CCD9101323E32C260025B11E /* ClientListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD9101223E32C260025B11E /* ClientListDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		CCAD030323E1DBF200B243BC /* ActivityCreation2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCreation2.swift; sourceTree = "<group>"; };
 		CCAD030D23E2E5B400B243BC /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		CCAD030F23E2E95100B243BC /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		CCD9100E23E315080025B11E /* ActivityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailView.swift; sourceTree = "<group>"; };
+		CCD9101223E32C260025B11E /* ClientListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientListDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				CCAD02FF23E1BC5F00B243BC /* PlanningDetailView.swift */,
 				CCAD030123E1BD8A00B243BC /* ActivityCreationDetailView.swift */,
 				CCAD030323E1DBF200B243BC /* ActivityCreation2.swift */,
+				CCD9100E23E315080025B11E /* ActivityDetailView.swift */,
+				CCD9101223E32C260025B11E /* ClientListDetailView.swift */,
 			);
 			path = AppleFoundationAppli;
 			sourceTree = "<group>";
@@ -175,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD9100F23E315080025B11E /* ActivityDetailView.swift in Sources */,
 				CCAD031023E2E95100B243BC /* Activity.swift in Sources */,
 				CCAD02FE23E1BC1400B243BC /* StatsDetailView.swift in Sources */,
 				CCAD02F823E1BBAD00B243BC /* ClientsDetailView.swift in Sources */,
@@ -184,6 +191,7 @@
 				CCAD02E423E1B7AA00B243BC /* SceneDelegate.swift in Sources */,
 				CCAD030423E1DBF300B243BC /* ActivityCreation2.swift in Sources */,
 				CCAD02E623E1B7AA00B243BC /* ContentView.swift in Sources */,
+				CCD9101323E32C260025B11E /* ClientListDetailView.swift in Sources */,
 				CCAD030E23E2E5B400B243BC /* Client.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

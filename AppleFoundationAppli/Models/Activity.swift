@@ -14,7 +14,8 @@ enum ActivityTypes {
     case rdvPro
 }
 
-struct Activity {
+struct Activity: Identifiable {
+    var id = UUID()
     var activityName: String
     var begginDate: Date
     var endDate: Date
